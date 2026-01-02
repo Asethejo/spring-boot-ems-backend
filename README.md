@@ -75,15 +75,14 @@ src/main/java/com/example/demo
 ⚙️ Database Configuration
 Create Database
 sql
-Copy code
+
 CREATE DATABASE ems;
 Configure application.properties
 properties
-Copy code
+
 spring.datasource.url=jdbc:postgresql://localhost:5432/ems
 spring.datasource.username=postgres
 spring.datasource.password=your_password
-
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
@@ -114,6 +113,7 @@ Click Run
 OR using terminal:
 
 ./mvnw spring-boot:run
+
 5️⃣ Verify Application
 Open browser:
 
