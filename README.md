@@ -188,5 +188,3 @@ Learned how different tools (VS Code, Postman, pgAdmin) work together in a backe
 Jothika
 Java | Spring Boot | Backend Developer
 
-yaml
-Copy code
